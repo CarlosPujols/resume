@@ -62,10 +62,9 @@ header{
 
 .name-info p:nth-of-type(2){
     font-size: 12px;
-    height: 4vh;
+    max-height: 4vh;
     margin-top:-1vh;
     background-color: rgb(41, 136, 218);
-    width: fit-content;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2vh;

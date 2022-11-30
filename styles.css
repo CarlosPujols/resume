@@ -92,15 +92,17 @@ header{
     margin-bottom: 2vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+
 }
 
 .links a{
     background-color: rgb(5, 86, 157);
     padding: 8px;
-    margin-right: 4vh;
     display: flex;
     font-size: 16px;
+    margin-right: 2vh;
 }
 
 .links a i{

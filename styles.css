@@ -25,25 +25,25 @@ h1, h2, h3, h4{
 .global-container{
     width: 8.5in;
     height: 11in;
-    padding: 2.5%;
+    padding: 2%;
 }
 
 header{
     width: 100%;
-    min-height: 20%;
+    min-height: 15%;
     background-color: rgb(119, 191, 255);
     color:white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 4vh;
+    margin-bottom: 1vh;
 }
 
 .name-info{
     display: flex;
     flex-direction: column;
-    margin-top: 2vh;
+    margin-top: 1vh;
 }
 
 .name-info p{
@@ -89,7 +89,7 @@ header{
 
 .links{
     padding: 8px;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -117,7 +117,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 2vh;
+    max-height: 40vh;
 }
 
 section h3{
@@ -136,25 +136,25 @@ section h3{
     background-color: rgb(5, 86, 157);
     border: none;
     margin-top: 16px;
-    margin-bottom: 16px;
 }
 
 .side1{
-    width: 55%;
+    width: 50%;
 }
 
 .side1 p{
     margin-bottom: 1vh;
     width: 90%;
     margin-top: 2vh;
+    font-size: 14px;
 }
 
 .side2{
-    width: 35%;
-    margin-left: 4vh;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 14px;
 }
 
 .skills ul{
@@ -184,13 +184,17 @@ section h3{
 }
 
 .projects-header{
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
     text-decoration: underline;
 }
 
 .projects .project{
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
     border-bottom: 1px solid rgb(119, 191, 255);
+}
+
+.projects .project:nth-of-type(4){
+    border-bottom: none;
 }
 
 .project a{
@@ -205,17 +209,13 @@ section h3{
     line-height: 1.7rem;
 }
 
-.profiles{
-    padding-bottom: 4vh;
-}
-
 .profiles-header{
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
     text-decoration: underline;
 }
 
 .profiles a{
-    display: inline-block;
+    display: block;
     margin-bottom: 1vh;
 }
 
